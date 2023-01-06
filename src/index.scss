@@ -1,10 +1,17 @@
+// Global Styling coming in here
+
+@import "~bootstrap/scss/bootstrap";
+@import "./components/Components.scss";
+@import "./App.scss";
+
 body {
-  margin: 0;
+  margin: 20;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
