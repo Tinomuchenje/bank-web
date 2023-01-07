@@ -1,6 +1,4 @@
-
-import { Container, Row } from 'react-bootstrap';
-import Col from 'react-bootstrap/Col';
+import { Row } from 'react-bootstrap';
 import { CashCoin, ArrowDownUp, ClockHistory } from 'react-bootstrap-icons';
 import CustomCardComp from '../../components/CustomCardComp';
 
