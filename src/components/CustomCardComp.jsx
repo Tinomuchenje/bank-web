@@ -1,21 +1,19 @@
 
-import { CashCoin } from 'react-bootstrap-icons';
+import Card from 'react-bootstrap/Card';
 
 function CustomCardComp(props) {
 
     return (
-        <div className="card" style={{ width: '18rem' }}>
-          
-            <div className="custom-card-comp">
-                <CashCoin color="royalblue" size={50} />
-                </div>
-            <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.description}</p>
-
-            </div>
-        </div>
-
+        <Card
+            bg={props.active ?'primary' :'white'}
+            text={props.active ?'white' :'primary'}
+            style={{ width: '10rem' }}>
+            <Card.Body> 
+                <Card.Text> {<props.icon color={props.active ?'white' :'royalblue'} size={45} />}</Card.Text>
+                <Card.Title>{props.title}</Card.Title>
+                <Card.Text>{props.description}</Card.Text>
+            </Card.Body>
+        </Card>
     );
 }
 

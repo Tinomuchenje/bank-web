@@ -1,10 +1,23 @@
 // Only component styling coming in here
 
-.custom-card-comp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    color: white;
-  }
+.custom-card-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.card{
+  margin: 10px;
+}
+
+.Finance-Header{
+  margin-left: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-decoration-color: grey;
+  color: royalblue;
+  text-align: left;
+}
