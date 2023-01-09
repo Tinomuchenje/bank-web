@@ -4,7 +4,7 @@ import CustomCardComp from '../../components/CustomCardComp';
 import React, { useState } from 'react';
 
 function FinancesPage() {
-    const [isLoans, setisLoan] = useState(false)
+    const [isLoans, setisLoan] = useState(true)
     const [isTransfers, setisTransfers] = useState(false)
     const [isHistory, setisHistory] = useState(false)
     const [isClient, setisClient] = useState(false)
