@@ -7,6 +7,7 @@ import {
     Link,
     Routes
 } from "react-router-dom";
+import { TickerTape } from "react-ts-tradingview-widgets";
 import DashboardPage from '../dashboard/DashboardPage';
 import FinancesPage from '../finances/FinancesPage';
 import ErrorPage from '../../ErrorPage';
@@ -27,8 +28,11 @@ function HomeComp() {
                     </Container>
                 </Navbar>
             </div>
-
             <div>
+            <TickerTape colorTheme="dark"></TickerTape>
+            </div>
+
+            <div class="main">
                 <Routes>
                     <Route exact path="/dashboard" element={<DashboardPage/>}/>
                     <Route exact path="/my-finances" element={<FinancesPage/>}/>

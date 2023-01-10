@@ -39,7 +39,7 @@ function FinancesPage() {
 
     return (
         <div>
-            <br />
+      
             <Row xs={2} md={2} lg={6}>
                 <h5 className='Finance-Header'> My Finances</h5>
             </Row>
